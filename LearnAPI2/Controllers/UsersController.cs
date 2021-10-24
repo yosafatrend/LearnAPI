@@ -21,7 +21,8 @@ namespace LearnAPI2.Controllers
         public UsersController(IUsers users, IHttpContextAccessor httpContextAccessor)
         {
             _users = users;
-            //var userId = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
+            var userId = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
+            Console.WriteLine(userId);
         }
 
         [HttpGet]

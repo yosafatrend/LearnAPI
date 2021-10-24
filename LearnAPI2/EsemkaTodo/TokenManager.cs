@@ -37,14 +37,13 @@ namespace LearnAPI2.EsemkaTodo
             return false;
         }
 
-        public string NewToken()
+        public string NewToken(string email)
         {
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new Claim[] 
                 { 
-                    new Claim(ClaimTypes.NameIdentifier, "tesNameIdentifier"), 
-                    new Claim(ClaimTypes.Name, "tesName") 
+                    new Claim(ClaimTypes.Name, email), 
                 }),
                 Expires = DateTime.UtcNow.AddMinutes(10),
                 SigningCredentials = new SigningCredentials(

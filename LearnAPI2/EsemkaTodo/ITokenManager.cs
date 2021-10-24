@@ -10,7 +10,7 @@ namespace LearnAPI2.EsemkaTodo
     public interface ITokenManager
     {
         bool Authenticate(Auth user);
-        string NewToken();
+        string NewToken(string email);
         ClaimsPrincipal VerifyToken(string token);
     }
 }

@@ -16,11 +16,13 @@ namespace LearnAPI2.Controllers
     public class AuthenticateController : ControllerBase
     {
         private readonly ITokenManager tokenManager;
-        private IHttpContextAccessor httpContextAccessor;
-        public AuthenticateController(ITokenManager tokenManager, IHttpContextAccessor httpContextAccessor)
+        private readonly IUsers users;
+        //private IHttpContextAccessor httpContextAccessor;
+        public AuthenticateController(ITokenManager tokenManager, IUsers users)
         {
             this.tokenManager = tokenManager;
-            this.httpContextAccessor = httpContextAccessor;
+            this.users = users;
+            //this.httpContextAccessor = httpContextAccessor;
             //var userId = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
         }
         [HttpPost]
@@ -28,7 +30,7 @@ namespace LearnAPI2.Controllers
         {
             if (tokenManager.Authenticate(user))
             {
-                return Ok(tokenManager.NewToken());
+                return Ok(tokenManager.NewToken(user.email));
             }
             else
             {
@@ -41,9 +43,8 @@ namespace LearnAPI2.Controllers
         [TokenAuthenticationFilter]
         public IActionResult GetAuth()
         {
-
-          //  var userId = httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Name).Value;
-            return Ok("tes") ;
+            var email = User.Identity.Name;
+            return Ok(users.GetUserByEmail(email)) ;
         }
 
       

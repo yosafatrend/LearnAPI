@@ -114,9 +114,10 @@ C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\bin\Debug\netcoreapp3.1\runtimes\
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.csprojAssemblyReference.cache
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.AssemblyInfoInputs.cache
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.AssemblyInfo.cs
+C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.RazorTargetAssemblyInfo.cache
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.csproj.CopyComplete
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\staticwebassets\LearnAPI2.StaticWebAssets.Manifest.cache
@@ -124,5 +125,4 @@ C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\staticweb
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.dll
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.pdb
 C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.genruntimeconfig.cache
-C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.csproj.CoreCompileInputs.cache
-C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\source\repos\LearnAPI2_2\LearnAPI2\obj\Debug\netcoreapp3.1\LearnAPI2.csprojAssemblyReference.cache

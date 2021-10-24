@@ -26,7 +26,7 @@ namespace LearnAPI2.Filters
                 try
                 {
                     var claimPrinciple = tokenManager.VerifyToken(token);
-
+                    context.HttpContext.User = claimPrinciple;
                 }
                 catch (Exception ex)
                 {
